@@ -67,7 +67,7 @@ Rscript ../ManhattanGG.R --assoc example.glm.linear --qq --qq-lambda 1.05 --y-li
 
 <U>Manhattan plot</U>
 
-![1_Basic_Manhattan](./example/example.manhattan.png =640x)<br>
+![1_Basic_Manhattan](./example/example.manhattan.png)<br>
 
 <U>Q-Q plot</U>
 
