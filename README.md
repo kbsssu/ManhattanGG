@@ -39,7 +39,7 @@ Rscript ManhattanGG.R --help
 
 <br>
 
- **1. Basic usage**
+### 1. Basic usage
 
 ```
 Rscript ../ManhattanGG.R --assoc example.glm.linear --qq --qq-lambda 1.05 --y-lim 10 \
@@ -63,16 +63,18 @@ Rscript ../ManhattanGG.R --assoc example.glm.linear --qq --qq-lambda 1.05 --y-li
 	- `--point-size <number>`: point size.
 	- `--out <prefix>`: Prefix for the output file name.
 
-- results
-
-<U>Manhattan plot</U>
-![1_Basic_Manhattan](./example/example.manhattan.png)<br>
-<U>Q-Q plot</U>
-<p align="left"><img src="./example/example.qq.png" width="400px"></p>
-
 <br>
 
-**2. Paper materials**
+- results<br>
+<U>Manhattan plot</U><br>
+![1_Basic_Manhattan](./example/example.manhattan.png)<br><br>
+<U>Q-Q plot</U><br>
+<p align="left"><img src="./example/example.qq.png" width="600px"></p>
+
+<br>
+<br>
+
+### 2. Paper materials
 
 This option makes it easy to retouch using other image tools such as [Adobe Illustrator](https://www.adobe.com/products/illustrator.html?promoid=PGRQQLFS&mv=other).
 
@@ -90,15 +92,19 @@ Rscript ../ManhattanGG.R --assoc example.glm.linear --paper-material --y-lim 10 
 		- `<prefix>.manhattan.point.png`: PNG file with only points.
 		- `<prefix>.manhattan.label.pdf`: PDF file with axis, labels and some reference points.
 
-- results
-<U>point plot (.png)</U>
-![2_Paper_point](./example/example.manhattan.point.png)<br>
-<U>label plot (.png)</U>
+<br>
+
+- results<br>
+<U>point plot (.png)</U><br>
+![2_Paper_point](./example/example.manhattan.point.png)<br><br>
+<U>label plot (.pdf)</U><br>
 ![2_Paper_label](./example/temp/example.manhattan.label.png)
 
 <br>
+<br>
 
 : : Remind : : &nbsp; All others options and default values for that options will be presented after following command.
+
 ```
 Rscript ManhattanGG.R --help
 ```
